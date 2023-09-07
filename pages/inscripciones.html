@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/inscripciones.css" />
   </head>
   <body>
     <header>
@@ -61,7 +62,104 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="container-fluid">
+      <section>
+        <div class="row">
+          <h1 class="text-center text-inscripciones">Inscripciones</h1>
+          <div class="col-sm-12 col-lg-6">
+            <div>
+              <h6 class="p-2 requisitos">REQUISITOS DE INSCRIPCIÓN</h6>
+              <p class="px-2">Tener entre 5 y hasta 11 años</p>
+              <p class="px-2">
+                Tener acompañamiento de la familia durante el ciclo lectivo
+              </p>
+            </div>
+            <img
+              class="pb-3"
+              id="imagen1"
+              src="../images/inscripciones/c28ad8_8a54c33e91754ec388ce8ad47.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-sm-12 col-lg-6 formulario1">
+            <div class="row justify-content-between">
+              <p class="col-sm-12 col-lg-9">
+                Para comenzar con el proceso de inscripción deben completar el
+                siguiente formulario
+              </p>
+              <img
+                class="logo d-none d-lg-block col-lg-3"
+                src="../images/inscripciones/gc.png"
+                alt=""
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Nombre y Apellido (padre/madre/tutor)"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre Alumno</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Nombre Alumno"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Email *"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Número de teléfono</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="número de télefono *"
+              />
+            </div>
+            <label for="floatingSelectGrid" class="form-label">Turno</label>
+            <select class="form-select mb-2" id="floatingSelectGrid">
+              <option selected>Mañana</option>
+              <option value="1">Tarde</option>
+              <option value="2">Noche</option>
+            </select>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control mb-3"
+                id="exampleFormControlTextarea1"
+                aria-describedby="sugerencia"
+              ></textarea>
+              <button type="submit" class="btn boton1">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="container-fluid p-5">
         <div class="row">
